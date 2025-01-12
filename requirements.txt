@@ -1,19 +1,5 @@
-# Django Framework
 Django>=4.0,<5.0
-
-# Database Handling
-dj-database-url  # For parsing database URLs
-psycopg2-binary  # PostgreSQL adapter (replace if using another DB)
-
-# Deployment and Security
-gunicorn          # WSGI HTTP server (optional for Vercel)
-python-dotenv     # Loading environment variables
-
-# Static Files Management
-whitenoise        # Serves static files in production
-
-# Vercel Adapter for Django (optional but useful)
-vercel-django
-
-# Other Utilities
-requests          # For making HTTP requests (if used in the project)
+whitenoise
+gunicorn
+python-dotenv
+dj-database-url
