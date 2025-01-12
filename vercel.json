@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "adolis_barber_shop/wsgi.py",
+      "src": "djangoprojectname/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }
@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "adolis_barber_shop/wsgi.py"
+      "dest": "djangoprojectname/wsgi.py"
     }
   ]
 }
